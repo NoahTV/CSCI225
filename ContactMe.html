@@ -6,7 +6,6 @@
             poster= "img/korone.jpg"
             preload="none"
             controls>
-            <p>funny video that always makes me smile.</p>
         </video>
 
         <form action="https://noahtv.github.io/CSCI225/"
@@ -24,6 +23,22 @@
                 <br />
                 <input type="radio" name="recommend" value="yes" checked="checked" /> yes
                 <input type="radio" name="recommend" value="no" checked="checked" /> no
+            </p>
+            <p>What is your favorite website?
+                <select name="website">
+                    <option value="youtube">YouTube</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="twitch">Twitch</option>
+                </select>
+            </p>
+            <p>What would you rate this wbsite from 1 to 10?
+                <input type="range" id="rating" name="rating" min="0" max="10"/>
+            </p>
+            <p>Comments:
+                <textarea name="comment" cols="20" rows="5">Enter your comments...</textarea>
+            </p>
+            <p>Submit:
+                <input type="submit" name="submit" value="Submit"/>
             </p>
         </form>
     </body>
