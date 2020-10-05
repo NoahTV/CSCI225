@@ -9,6 +9,11 @@ img.align-right{
     margin-right: 10px;
 }
 
+img.small{
+    width: 150px;
+    height: 100px;
+}
+
 div.navbar{
     position: fixed;
 }
