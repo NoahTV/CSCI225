@@ -18,6 +18,10 @@ div.navbar{
     position: fixed;
 }
 
+div.portfolio{
+    margin-top: 200px;
+}
+
 div.Assignments{
     position: absolute;
     top: 230px;
