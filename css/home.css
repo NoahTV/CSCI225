@@ -6,6 +6,7 @@ div.Introductions{
 
 img.align.right{
     float: right;
+    margin-right: 10px;
 }
 
 div.navbar{
