@@ -8,3 +8,6 @@ div.navbar{
     position: fixed;
 }
 
+div.assignments{
+    position: absolute;
+}
