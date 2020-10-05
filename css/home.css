@@ -1,3 +1,10 @@
 div.Introductions{
     position: fixed;
+    float: left;
+    
 }
+
+div.navbar{
+    position: fixed;
+}
+
