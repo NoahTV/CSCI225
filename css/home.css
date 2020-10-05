@@ -2,7 +2,8 @@ div.Introductions{
     position: fixed;
     float: left;
     z-index: 10;
-    width: 80%;
+    width: 90%;
+    padding-top: 1in;
 }
 
 img.align-right{
