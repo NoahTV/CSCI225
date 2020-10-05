@@ -4,6 +4,10 @@ div.Introductions{
     z-index: 10;
 }
 
+img.align.right{
+    float: right;
+}
+
 div.navbar{
     position: fixed;
 }
