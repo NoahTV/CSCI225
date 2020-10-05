@@ -2,6 +2,7 @@ div.Introductions{
     position: fixed;
     float: left;
     z-index: 10;
+    padding-top: 20;
 }
 
 img.align-right{
@@ -20,10 +21,7 @@ div.navbar{
     right: 0px;
     left: 0px;
     width: 100%
-}
-
-.navbar ul li {
-    display: inline-block
+    
 }
 
 div.portfolio{
