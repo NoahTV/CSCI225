@@ -16,6 +16,7 @@ img.medium{
 
 div.navbar{
     position: fixed;
+    margin-top: 0px;
 }
 
 div.portfolio{
