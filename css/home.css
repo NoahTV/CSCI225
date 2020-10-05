@@ -1,7 +1,7 @@
 div.Introductions{
     position: fixed;
     float: left;
-    
+    z-index: 10;
 }
 
 div.navbar{
@@ -10,7 +10,7 @@ div.navbar{
 
 div.Assignments{
     position: absolute;
-    top: 240px;
+    top: 230px;
     right: 0px;
 }
 
