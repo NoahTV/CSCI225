@@ -23,9 +23,19 @@ div.navbar{
     position: fixed;
 }
 
-.navbar a{
+a:link{
     text-decoration: none;
     color: pink;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+a:active{
+    color: red;
 }
 
 .navbar li{
@@ -75,20 +85,8 @@ body{
     font-family: 'Sansita Swashed', cursive;
 }
 
-.portfolio a{
-    color: pink;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .portfolio li{
     list-style-image: url("../img/point.jpg");
-}
-
-.Assignments a{
-    color: pink;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 .Introductions h1{
