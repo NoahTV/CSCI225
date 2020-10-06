@@ -25,6 +25,7 @@ div.navbar{
     right: 0px;
     left: 0px;
     color: blue;
+    font-weight: bold;
 }
 
 div.portfolio{
@@ -43,13 +44,24 @@ table{
 
 body{
     font-family: 'Sansita Swashed', cursive;
-    font-weight: bold;
 }
 
 .Introductions h1{
     color: blue;
+    font-weight: bold;
 }
 
 .Introductions p{
     color: blue;
+    font-weight: bold;
+}
+
+.portfolio ul{
+    color: blue;
+    font-weight: bold;
+}
+
+.Assignments ol{
+    color: blue;
+    font-weight: bold;
 }
