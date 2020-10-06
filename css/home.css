@@ -62,6 +62,9 @@ div.ContactInformation{
 
 table{
     width: 250px;
+    padding: 5px;
+    text-align: left;
+    empty-cells: hide;
 }
 
 body{
