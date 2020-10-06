@@ -30,16 +30,34 @@ div.navbar{
 
 .navbar li{
     display: inline-block;
+    margin-right: 10px;
+    border: 3px;
+    border-radius: 1opx;
 }
 
 div.portfolio{
     padding-top: 250px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-style: solid;
+}
+
+div.schedule{
+    border-right: 3px;
+    border-bottom: 3px;
+    border-style: solid;
 }
 
 div.Assignments{
     position: absolute;
     top: 0in;
     right: 1cm;
+}
+
+div.ContactInformation{
+    border-right: 3px;
+    border-bottom: 3px;
+    border-style: solid;
 }
 
 table{
@@ -70,6 +88,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-shadow: 1px 1px 3px pink;
+    border: 2px;
+    border-radius: 10px;
 }
 
 .Introductions p{
@@ -81,6 +101,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-shadow: 1px 1px 3px pink;
+    border: 2px;
+    border-radius: 10px;
 }
 
 .portfolio p{
@@ -92,12 +114,16 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-shadow: 1px 1px 3px pink;
+    border: 2px;
+    border-radius: 10px;
 }
 
 .Assignments h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     text-shadow: 1px 1px 3px pink;
+    border: 2px;
+    border-radius: 10px;
 }
 
 body{
