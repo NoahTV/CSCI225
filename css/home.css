@@ -46,16 +46,6 @@ body{
     font-family: 'Sansita Swashed', cursive;
 }
 
-.Introductions h1{
-    color: blue;
-    font-weight: bold;
-}
-
-.Introductions p{
-    color: blue;
-    font-weight: bold;
-}
-
 .portfolio ul{
     color: blue;
     font-weight: bold;
@@ -64,4 +54,20 @@ body{
 .Assignments ol{
     color: blue;
     font-weight: bold;
+}
+
+.Introductions h1{
+    text-transform: uppercase;
+}
+
+.portfolio h1{
+    text-transform: uppercase;
+}
+
+.schedule h1{
+    text-transform: uppercase;
+}
+
+.Assignments h1{
+    text-transform: uppercase;
 }
