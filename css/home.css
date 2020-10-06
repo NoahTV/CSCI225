@@ -24,6 +24,7 @@ div.navbar{
     top: 0px;
     right: 0px;
     left: 0px;
+    color: blue;
 }
 
 div.portfolio{
@@ -42,4 +43,5 @@ table{
 
 body{
     font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
 }
