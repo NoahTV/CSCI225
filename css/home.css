@@ -28,7 +28,7 @@ div.navbar{
     font-weight: bold;
 }
 
-.navbar ul{
+.navbar a{
     text-decoration: none;
 }
 
@@ -50,13 +50,13 @@ body{
     font-family: 'Sansita Swashed', cursive;
 }
 
-.portfolio ul{
+.portfolio a{
     color: pink;
     font-weight: bold;
     text-decoration: none;
 }
 
-.Assignments ol{
+.Assignments a{
     color: pink;
     font-weight: bold;
     text-decoration: none;
