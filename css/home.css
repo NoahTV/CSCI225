@@ -45,3 +45,11 @@ body{
     font-family: 'Sansita Swashed', cursive;
     font-weight: bold;
 }
+
+.Introductions h1{
+    color: blue;
+}
+
+.Introductions p{
+    color: blue;
+}
