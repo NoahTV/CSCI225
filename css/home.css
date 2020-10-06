@@ -24,7 +24,7 @@ div.navbar{
     top: 0px;
     right: 0px;
     left: 0px;
-    color: blue;
+    color: pink;
     font-weight: bold;
 }
 
@@ -47,43 +47,47 @@ body{
 }
 
 .portfolio ul{
-    color: blue;
+    color: pink;
     font-weight: bold;
 }
 
 .Assignments ol{
-    color: blue;
+    color: pink;
     font-weight: bold;
 }
 
 .Introductions h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-shadow: 1px 1px 3px pink;
 }
 
 .Introductions p{
-    line-height: 3.0em;
+    line-height: 1.5em;
     text-align: left;
 }
 
 .portfolio h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-shadow: 1px 1px 3px pink;
 }
 
 .portfolio p{
-    line-height: 3.0em;
+    line-height: 1.5em;
     text-align: left;
 }
 
 .schedule h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-shadow: 1px 1px 3px pink;
 }
 
 .Assignments h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-shadow: 1px 1px 3px pink;
 }
 
 body{
