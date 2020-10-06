@@ -27,7 +27,7 @@ div.navbar{
     text-decoration: none;   
 }
 
-.navbar ul{
+.navbar li{
     display: inline-block;
 }
 
