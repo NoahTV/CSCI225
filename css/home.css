@@ -62,7 +62,7 @@ body{
 }
 
 .Introductions p{
-    line-height: 0.5em;
+    line-height: 1.5em;
     text-align: left;
 }
 
@@ -73,7 +73,7 @@ body{
 }
 
 .portfolio p{
-    line-height: 0.5em;
+    line-height: 1.5em;
 }
 
 .schedule h1{
@@ -87,5 +87,5 @@ body{
 }
 
 body{
-    background-image: url("img/sunrise.jpg");
+    background-image: url("../img/sunrise.jpg");
 }
