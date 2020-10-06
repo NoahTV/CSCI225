@@ -62,18 +62,18 @@ body{
 }
 
 .Introductions p{
-    line-height: 1.5em;
+    line-height: 3.0em;
     text-align: left;
 }
 
 .portfolio h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    text-align: left;
 }
 
 .portfolio p{
-    line-height: 1.5em;
+    line-height: 3.0em;
+    text-align: left;
 }
 
 .schedule h1{
