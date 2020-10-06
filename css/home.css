@@ -24,7 +24,8 @@ div.navbar{
 }
 
 .navbar a{
-    text-decoration: none;   
+    text-decoration: none;
+    color: pink;
 }
 
 .navbar li{
