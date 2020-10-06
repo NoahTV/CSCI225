@@ -31,6 +31,10 @@ div.navbar{
     display: inline-block;
 }
 
+.navbar ul{
+    list-style-image: url("../img/point.jpg");
+}
+
 div.portfolio{
     padding-top: 250px;
 }
