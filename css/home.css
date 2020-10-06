@@ -58,16 +58,20 @@ body{
 
 .Introductions h1{
     text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 .portfolio h1{
     text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 .schedule h1{
     text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 .Assignments h1{
     text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
