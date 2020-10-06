@@ -28,6 +28,10 @@ div.navbar{
     font-weight: bold;
 }
 
+.navbar ul{
+    text-decoration: none;
+}
+
 div.portfolio{
     padding-top: 250px;
 }
@@ -49,11 +53,13 @@ body{
 .portfolio ul{
     color: pink;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .Assignments ol{
     color: pink;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .Introductions h1{
