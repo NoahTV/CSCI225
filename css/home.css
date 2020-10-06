@@ -62,10 +62,13 @@ div.ContactInformation{
 
 table{
     width: 250px;
+}
+
+.schedule td{
     border: 3px;
     padding: 5px;
-    text-align: left;
-    empty-cells: hide;
+    vertical-align: bottom;
+    empty-cells: show;
 }
 
 body{
