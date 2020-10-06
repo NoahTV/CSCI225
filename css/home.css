@@ -61,9 +61,19 @@ body{
     letter-spacing: 0.2em;
 }
 
+.Introductions p{
+    line-height: 0.5em;
+    text-align: left;
+}
+
 .portfolio h1{
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    text-align: left;
+}
+
+.portfolio p{
+    line-height: 0.5em;
 }
 
 .schedule h1{
