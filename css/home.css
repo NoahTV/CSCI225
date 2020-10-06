@@ -21,15 +21,21 @@ img.medium{
 
 div.navbar{
     position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    color: pink;
-    font-weight: bold;
 }
 
 .navbar a{
     text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0auto;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
 }
 
 div.portfolio{
