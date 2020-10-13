@@ -1,6 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+    <head>
+        <title></title>
+    </head>
     <body>
+
+        <div id="navbar">
+            <ul>
+                <li>
+                    <link rel="Main Page" href="index.html">
+                </li>
+            </ul>
+
+        </div>
+
         <video src="img/Korone Cute.mp4"
             width="400" height="300"
             poster= "img/korone.jpg"
@@ -9,7 +23,7 @@
         </video>
 
         <form action="https://noahtv.github.io/CSCI225/"
-            method="GET" name="feedback">
+            method="GET" name="feedback" class="form-inline">
             <p> first name:
                 <input type="text" name="fname" required="required"/>
             </p> 
@@ -21,14 +35,15 @@
             </p>
             <p>Password:
                 <input type="password" name="password" />
+                <small class="form-text text-muted"> Your password .....</small>
             </p>
             <p>What is your birthday?
                 <input type="date" name="birthday" />
             </p>
             <p>Would you recommend this website?:
                 <br />
-                <input type="radio" name="recommend" value="yes" checked="checked" /> yes
-                <input type="radio" name="recommend" value="no" checked="checked" /> no
+                <input type="radio" name="recommend" value="yes"/> yes
+                <input type="radio" name="recommend" value="no"/> no
             </p>
             <p>What is your favorite website?
                 <select name="website">
