@@ -5,8 +5,8 @@
     </head>
 
     <body>
-        <div class="feet">
-            <h1>Unit Conversion Calculator-Lenght</h1>
+        <div class="Conversion">
+            <h1>Unit Conversion Calculator-Length</h1>
             <script>
                 function Calculate() {
                     var num = parseFloat(document.getElementsByName("num")[0].value);
@@ -59,11 +59,11 @@
                         {
                             result = num/100;
                         }
-                    document.getElementById('result').textContent = " " + ans;
+                    document.getElementById('result').textContent = ans;
                 }
             </script>
             <p>
-                <input type = "text" name = "num"></input>
+                <input type = "text" name = "num">
                 <select id="unit">
                     <option>inch</option>
                     <option>foot</option>
@@ -78,6 +78,8 @@
                     <option>meter</option>
                     <option>centimeter</option>
                 </select>
+                
+                <input type="button" value="convert" onclick="Calculate();">
             </p>
         </div>
     </body>
