@@ -30,6 +30,8 @@
             <script>
                 function Calculate() {
                     var num = parseFloat(document.getElementsByName('num')[0].value);
+                    var unit = document.getElementById('unit').value;
+                    var unitr = document.getElementById('unitr').value;
                     var ans;
                     if (unit == "inch" && unitr == "foot")
                         {
@@ -79,7 +81,9 @@
                         {
                             ans = num/100;
                         }
-                    document.getElementById('result').textContent = ans;
+                    document.getElementById('result').textContent=result.toString();
+                    document.getElementById('unit').addEventListener('change',Calculate);
+                    document.getElementById('unitr').addEventListener('change',Calculate);
                 }
             </script>
         </div>
