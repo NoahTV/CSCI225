@@ -9,53 +9,53 @@
             <h1>Unit Conversion Calculator-Length</h1>
             <script>
                 function Calculate() {
-                    var num = parseFloat(document.getElementsByName("num")[0].value);
+                    var num = parseFloat(document.getElementsByName('num')[0].value);
                     var ans;
-                    if (unit == inch && unitr == foot)
+                    if (unit == "inch" && unitr == "foot")
                         {
                             ans = num/12;
                         }
-                    else if (unit == inch && unitr == meter)
+                    else if (unit == "inch" && unitr == "meter")
                         {
                             ans = num/39.37;
                         }
-                    else if (unit == inch && unitr == centimeter)
+                    else if (unit == "inch" && unitr == "centimeter")
                         {
                             ans = num*2.54;
                         }
-                    else if (unit == foot && unitr == inch)
+                    else if (unit == "foot" && unitr == "inch")
                         {
                             ans = num/12;
                         }
-                    else if (unit == foot && unitr == meter)
+                    else if (unit == "foot" && unitr == "meter")
                         {
                             ans = num/3.281;
                         }
-                    else if (unit == foot && unitr == centimeter)
+                    else if (unit == "foot" && unitr == "centimeter")
                         {
                             ans = num*30.48;
                         }
-                    else if (unit == meter && unitr == inch)
+                    else if (unit == "meter" && unitr == "inch")
                         {
                             ans = num*39.37;
                         }
-                    else if (unit == meter && unitr == foot)
+                    else if (unit == "meter" && unitr == "foot")
                         {
                             ans = num*3.281;
                         }
-                    else if (unit == meter && unitr == centimeter)
+                    else if (unit == "meter" && unitr == "centimeter")
                         {
                             ans = num*100;
                         }
-                    else if (unit == centimeter && unitr == inch)
+                    else if (unit == "centimeter" && unitr == "inch")
                         {
                             ans = num/2.54;
                         }
-                    else if (unit == centimeter && unitr == foot)
+                    else if (unit == "centimeter" && unitr == "foot")
                         {
                             ans = num/30.48;
                         }
-                    else if (unit == centimeter && unitr == meter)
+                    else if (unit == "centimeter" && unitr == "meter")
                         {
                             ans = num/100;
                         }
@@ -63,7 +63,7 @@
                 }
             </script>
             <p>
-                <input type = "text" name = "num">
+                <input type = "text" name = "num"/>
                 <select id="unit">
                     <option>inch</option>
                     <option>foot</option>
@@ -79,7 +79,7 @@
                     <option>centimeter</option>
                 </select>
                 
-                <input type="button" value="convert" onclick="Calculate();">
+                <input type="button" value="convert" onclick="Calculate();"/>
             </p>
         </div>
     </body>
