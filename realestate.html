@@ -15,7 +15,7 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Buy</a></li>
                 <li><a href="#">Sale</a></li>
-                <li><a href="#">Loan</a></li>
+                <li><a href="#"><button onclick="showForm()">Loan</button></a></li>
                 <li><a href="#">About</a></li>
             </ul>
             </div>
@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-4"></div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" id="loanCalc">
                 <form>
                     <div class="form-group">
                         <label for="loanAmount">Loan Amount:</label>
@@ -45,8 +45,20 @@
                         <label for="showResults">Show Results by:</label>
                         <input type="year" class="form-control" id="showResults">
                     </div>
+                    <div class="card-footer">
+                        <button type="button" class="bton btn-secondary btn-md" id="Calculate">Calculate</button>
+                    </div>
                 </form>
             </div>
         </div>
+        function myFunction() {
+            var x = document.getElementById("loanCalc");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+        
    </body>
 </html>
